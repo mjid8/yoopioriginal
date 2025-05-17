@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.YoopiPlayer" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Pick any colours you like -->
+        <item name="colorPrimary">#5534EB</item>
+        <item name="colorPrimaryDark">#3C25AC</item>
+        <item name="colorAccent">#EB13F2</item>
+    </style>
+</resources>
