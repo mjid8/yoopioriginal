@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- 🔑 GLOBAL action (root-level) -->
+    <action
+        android:id="@+id/action_global_channels"
+        app:destination="@id/channelsFragment"
+        app:launchSingleTop="true"/>
+
+    <!-- Login screen -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.yoopi.ui.login.LoginFragment"
+        android:label="Login" />
+
+
+    <!-- Channels list screen -->
+    <fragment
+        android:id="@+id/channelsFragment"
+        android:name="com.yoopi.ui.channels.ChannelsFragment"
+        android:label="Channels" />
+</navigation>
